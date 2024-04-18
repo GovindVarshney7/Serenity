@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(248, 201, 209);
+}
+#up{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    /*background-color: whitesmoke;*/
+    padding: 50px;
+    position:relative ;
+    color: whitesmoke;
+}
+#upLeft H4{
+    margin-left: 30px;
+}
+#upRightDiv{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*background-color: aqua;*/
+    padding: 50px;
+    font-size: 17px;
+    font-weight: 200;
+
+}
+.upRight{
+    margin-right:30px ;
+}
+#middle{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1448376561459-dbe8868fa34c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: 20% 43%;
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+}
+#middleLeft{
+    height: 70%;
+    width: 30%;
+    padding: 40px;
+    font-family: "gilroy";
+    margin-left: 40px;
+}
+#a{
+    color: whitesmoke;
+}
+#middleLeft h1{
+    color: whitesmoke;
+    font-size: 55px;
+}
+#b{
+    color: rgb(153, 88, 99);
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+
+#middleLeft2{
+    display :flex;
+    margin-top: 30px;
+   
+}
+#middleLeft h2{
+    margin-right: 10px;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 34px;
+
+}
+#middleLeft p{
+    color: whitesmoke;
+}
+#middleRight{
+    position: absolute;
+    display: flex;
+    height: 10%;
+    width: 20%;
+    right: -3%;
+    top: 37%;
+    transform: rotate(90deg);
+
+}
+.middleRightDivs{
+    margin-right: 30px;
+    font-family:sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+}
+#down{
+    height: 30%;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 70%;
+    display: flex;
+    
+    
+}
+.downDiv{
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: "gilroy";
+    color: rgba(0, 0, 0, 0.555);
+}
+#down h5 .ri-sun-fill{
+    color: black;
+}
+#down1 h2{
+    color: rgba(0, 0, 0, 0.993);
+}
+#down1{
+    margin-top: 25px;
+}
+#down1 h2{
+    margin-top: 10px;
+}
+#downR1{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    height:115% ;
+    width: 20%;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+}
+#downR1a{
+    height: 100%;
+    width: 75%;
+    background-image:url(https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80) ;
+    background-size: cover;
+    background-position: 5% 13%;
+    color: whitesmoke;
+}
+#downH41{
+    margin-top: 3%;
+    margin-left: 5%;
+    color: whitesmoke;
+    font-weight: 200;
+}
+#downH42{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: whitesmoke;
+    font-weight: 200;
+}
+#downR2{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    background-color: rgb(71, 71, 71);
+    padding: 30px;
+    color: whitesmoke;
+    font-family: "gilroy";
+
+}
+#downR2 h6{
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+#downR2P1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.upRight:hover{
+    transform: scale(1.2);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+
+}
+#downR1a:hover{
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+    cursor: pointer;
+    z-index: 9;
+
+}
+.middleLefth2:hover{
+    transform: scale(1.2);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    cursor: pointer;
+} 
+#c:hover{
+    color: black;
+}
+#d:hover{
+    color: black;
+}
+.downDiv{
+    cursor: pointer;
+}
+.middleRightDivs:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out;
+    cursor: pointer;
+}
+#downR2P2:hover{
+    cursor: pointer;
+}
+#middle:hover{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+    background-image: url(https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: top;    
+}
